@@ -16,4 +16,5 @@ Once Node.js and npm are installed, follow these steps to set up the project:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
