@@ -18,3 +18,29 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+3. Running the Application
+
+```bash
+npm run dev
+```
+
+4. API Endpoints
+The application provides the following RESTful endpoints:
+
+```bash
+GET /tasks - Retrieves a list of all tasks.
+GET /tasks/:id - Retrieves a task by its unique ID.
+POST /tasks - Creates a new task with the data provided in the request body.
+PUT /tasks/:id - Updates an existing task identified by its unique ID with the data provided in the request body.
+DELETE /tasks/:id - Deletes an existing task identified by its unique ID.
+```
+
+5. Error Handling
+
+The application includes error handling middleware that captures and processes any errors occurring during the request/response cycle.
