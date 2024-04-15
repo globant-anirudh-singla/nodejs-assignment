@@ -44,3 +44,31 @@ DELETE /tasks/:id - Deletes an existing task identified by its unique ID.
 5. Error Handling
 
 The application includes error handling middleware that captures and processes any errors occurring during the request/response cycle.
+
+6. Request Body Examples
+
+POST /tasks
+
+```bash
+{
+  "title": "New Task",
+  "completed": false
+}
+```
+
+PUT /tasks/:id
+
+```bash
+{
+  "title": "New Task",
+  "completed": false
+}
+```
+
+7. Error Handling
+
+The application includes error handling middleware that captures and processes any errors occurring during the request/response cycle.
+
+8. License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
